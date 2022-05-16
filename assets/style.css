@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.top-menu{
+    background-color: blue;
+    padding: 30px;
+    height: 50px;
+}
+.top-menu .items .fa-solid {
+color:white;
+font-size: 30px;
+}
+.top-menu .items .starex{
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.top-menu .button-groups {
+    text-align: end;
+    margin-top: -27px;
+}
+.top-menu .button-groups a:hover{
+    color: gray;
+}
+.top-menu .button-groups a{
+ color: white;
+ display: inline-block;
+ text-decoration: none;
+ font-size: 15px;
+}
+.nav-elems{
+    height: 60px;
+    background-color: white;
+}
+.nav-elems .logo h1{
+    padding-right: 10px;
+    display: inline;
+    color: rgb(63, 63, 247);
+}
+.nav-elems .menu-elem ul{
+    margin-left: 20%;
+}
+.nav-elems .menu-elem ul li{
+    display: inline;  
+}
+.nav-elems .menu-elem ul li a{
+text-decoration: none;
+color: black;
+font-size: 15px;
+margin: 8px;
+
+}
+.nav-elems .menu-elem ul li a:hover{
+    color: orange;
+}
+.nav-elems .my-buttons{
+padding-left: 75%;
+margin-top: -40px;
+}
+
+.nav-elems .my-buttons .btn{
+    padding: 7px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+.star-icon{
+    padding: 30px;
+    display: inline;
+    font-size: 20px;
+    color: rgb(58, 58, 221);
+}
+
+.nav-elems .my-buttons .btn-sifarish{
+    background-color: orange;
+}
+.nav-elems .my-buttons .btn-beyan{
+    background-color: blue;
+}
+body{
+    background-color: #f1f4f8;
+    color: black;
+    overflow-x: hidden;
+}
+main{
+    padding-top: 50px;
+    min-height: 1000px;
+}
+h1{
+    padding: 20px;
+}
+span{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.container{
+    width: 650px;
+    margin: 0 auto;
+}
+.accordion-title{
+    position: relative;
+    padding: 24px 40px 10px 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.accordion-title .arrow{
+    position: absolute;
+    right: 30px;
+    top: 45%;
+}
+.icon{
+    width: 35px;
+}
+.accordion-desc{
+    padding: 30px;
+    background-color: #fff;
+}
+/* 
+.accordion-item.active .arrow{
+    transform: scale(-1) translateY(5px);
+} */
+   
+ul{
+    padding-left: 20px;
+}
